@@ -7,7 +7,7 @@
 
 /* --------- Game layout */
 
-.game-board {
+#board {
     border: 2px solid black;
     background-color: gray;
     height: 350px;
@@ -24,6 +24,16 @@ height: 120px;
 padding:10px;
 margin:10px;
 float:left;
+}
+
+/* --------- Code to show and hide the flags */
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
 }
 
 
