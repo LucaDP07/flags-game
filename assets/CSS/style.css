@@ -1,4 +1,11 @@
-/* --------- Global style */
+body {
+    background-color: white;
+    font-family: "Kanit", sans-serif;
+    color: #445361;
+    text-align: center;
+}
+
+/* --------- Heading */
 
 .heading {
     text-align: center;
@@ -15,6 +22,28 @@
     width: 59%;
     margin: 0 auto;
 }
+
+.score-area {
+    margin: 5px auto;
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+.scores {
+    display: inline-block;
+    padding: 25px;
+}
+
+#right {
+    color: green;
+    font-weight: bold;
+}
+
+#wrong {
+    color: red;
+    font-weight: bold;
+}
+
 
 /* --------- Flags */
 
@@ -44,6 +73,8 @@ display: none;
 .visible {
     display: block;
 }
+
+
 
 
 
