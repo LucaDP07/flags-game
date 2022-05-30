@@ -8,7 +8,7 @@ function startGame() {
 
 var loops = 0;
 var peopleVisible = false;
-var gameScore = o;
+var gameScore = 0;
 
 
 /* --------- Game Loop */
@@ -38,7 +38,7 @@ function createCharacters() {
         }
     }
     var randomNumber = Math.floor(Math.random() * 6) + 1;
-    board.children[randomNumber-1].innerHTML ="";
+    board.children[randomNumber-1].innerHTML = "";
     board.children[randomNumber-1].onclick = function() {
         gameScore++;
     }
