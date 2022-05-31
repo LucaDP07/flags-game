@@ -20,9 +20,10 @@ body {
 
 /* --------- Game layout */
 
-#board {
+
+
+#main {
     border: 5px solid black;
-    background: url("/assets/images/Ireland-flags.jpg");
     background-size: cover;
     height: 360px;
     width: 59%;
