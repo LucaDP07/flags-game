@@ -84,6 +84,12 @@ p {
     display: none;
 }
 
+.flag:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;  
+}
+
 .wrong-flag {
     background: url("/assets/images/Ireland.png");
     background-size: cover;
