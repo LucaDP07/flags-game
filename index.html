@@ -18,25 +18,37 @@
     <input type="button" value="Play" onclick="startGame()" ; />
     <br><br>
 
-    <!--Instructions-->
+    <!--Game Container-->
 
     <div id="main">
-        <div id="instructions">ABCDE</div>
 
-    <!--Game Board-->
+        <!--Instructions-->
+        <div id="instructions">
+            <h2>Welcome to the Flags Game!</h2>
+            <p>Before getting started and have some fun, let's take a moment and see what the rules are:<br>
+                Once the player click "Play"
+                the game board will show a different set of 6 flags every 3 seconds.<br>
+                5 of these represent the Irish flag, while the last one it's the Italian flag, very similar to the Irish one.
+                The player needs to catch the italian flag (the intruder). Everytime the player clicks on the Italian flag a point will be added to the score, and to make sure the player is paying attention, every click on the Irish flag will take away 2 points. Are you ready? Let's get started!
+            </p>
+        </div>
 
-    <div id="board">
-        <div class="flag">1</div>
-        <div class="flag">2</div>
-        <div class="flag">3</div>
-        <div class="flag">4</div>
-        <div class="flag">5</div>
-        <div class="flag">6</div>
+        <!--Game Board-->
+
+        <div id="board">
+            <div class="flag">1</div>
+            <div class="flag">2</div>
+            <div class="flag">3</div>
+            <div class="flag">4</div>
+            <div class="flag">5</div>
+            <div class="flag">6</div>
+        </div>
+
+        <!--Final score-->
+
+        <div id="score" class="hidden">1234</div>
+
     </div>
-
-    <div id="score" class="hidden">1234</div>
-
-</div>
 
     <div class="score-area">
         <p class="scores">Correct Answers: <span id="right">0</span></p>
