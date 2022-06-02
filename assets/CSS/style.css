@@ -17,6 +17,7 @@
 
 h1 {
     font-size: 40px;
+    color: #808080;
 }
 
 body {
@@ -53,7 +54,7 @@ p {
 /* --------- Start Button */
 
 input[type=button] {
-    background-color: #62529c;
+    background-color: #FF883E;
     border: none;
     color: #fff;
     padding: 15px 100px;
@@ -112,7 +113,7 @@ input:hover {
 .flag {
     background: url("/assets/images/Ireland1.png");
     background-size: cover;
-    width: 220px;
+    width: 229px;
     height: 120px;
     padding: 10px;
     margin: 10px;
