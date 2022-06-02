@@ -38,7 +38,7 @@ function gameLoop() {
         var score = document.getElementById('score');
         score.classList.remove('hidden');
         var html = score.innerHTML;
-        score.innerHTML = "Your final result is " +gameScore;
+        score.innerHTML = "Your final score is " +gameScore;
         
     }
 
@@ -64,3 +64,21 @@ function createCharacters() {
     }
     board.children[randomNumber - 1].className = classToSet + " wrong-flag";
 }
+
+/* --------- Timer */
+
+var counter = 20;
+
+setInterval( function(){
+counter--;
+
+if( counter >= 0 ){
+    id = document.getElementById("count");
+    id.innerHTML = counter;
+}
+
+if( counter === 0 ){
+    id.innerHTML = "Game Over";
+}
+}, 1000);
+

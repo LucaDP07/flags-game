@@ -2,6 +2,23 @@
 
 /* --------- Global style */
 
+* {
+    padding: 5px;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.timer {
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size:40px;
+}
+
 body {
     background-color: white;
     font-family: "Kanit", sans-serif;
@@ -31,6 +48,9 @@ p {
     padding: 30px;
     color: black;
 }
+
+
+
 
 /* --------- Start Button */
 
