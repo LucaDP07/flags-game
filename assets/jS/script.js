@@ -10,7 +10,7 @@ function startGame() {
     score.classList.add('hidden');
 /* --------- Here we reset the variables */
     loops = 0;
-    peopleVisible = false;
+    flagVisible = false;
     gameScore = 0;
 
     gameLoop();
@@ -19,7 +19,7 @@ function startGame() {
 /* --------- Score */
 
 var loops = 0;
-var peopleVisible = false;
+var flagVisible = false;
 var gameScore = 0;
 
 
@@ -27,11 +27,11 @@ var gameScore = 0;
 
 function gameLoop() {
     
-    peopleVisible = !peopleVisible;
-    createCharacters();
+    flagVisible = !flagVisible;
+    createFlags();
     loops++; 
     if (loops < 12) {
-        setTimeout(gameLoop, peopleVisible ? 1000 : 3000);
+        setTimeout(gameLoop, flagVisible ? 1000 : 3000);
     } else {
         var board = document.getElementById('board');
         board.classList.add('hidden');
@@ -45,11 +45,11 @@ function gameLoop() {
 
 }
 
-/* --------- createCharacters */
+/* --------- createFlags */
 
-function createCharacters() {
+function createFlags() {
     var board = document.getElementById("board");
-    var classToSet = peopleVisible ? "flag visible" : "flag hidden";
+    var classToSet = flagVisible ? "flag visible" : "flag hidden";
     for (var index = 0; index < 6; index++) {
         board.children[index].className = classToSet;
         board.children[index].innerHTML = "";
