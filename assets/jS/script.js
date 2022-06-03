@@ -38,7 +38,7 @@ function gameLoop() {
         var score = document.getElementById('score');
         score.classList.remove('hidden');
         var html = score.innerHTML;
-        score.innerHTML = "Your final score is " +gameScore;
+        score.innerHTML = `<p class="final-result">Your final score is: ${gameScore}</p>`
         
     }
 

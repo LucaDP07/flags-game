@@ -17,7 +17,7 @@
 
 h1 {
     font-size: 40px;
-    color: #808080;
+    color: #000000;
 }
 
 body {
@@ -49,6 +49,8 @@ p {
     padding: 30px;
     color: black;
 }
+
+
 
 
 /* --------- Start Button */
@@ -132,6 +134,16 @@ input:hover {
     background-size: cover;
 
 }
+
+/* --------- Code to style the final score message */
+
+p.final-result {
+    font-size: 40px;
+    text-align: center;
+    padding: 100px 0;
+    color: black;
+}
+
 
 /* --------- Code to show and hide the flags */
 
