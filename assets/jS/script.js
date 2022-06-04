@@ -1,14 +1,18 @@
 /* --------- Start Button */
 
 function startGame() {
+
     /* --------- Once you start the game the div of board is visible and the instructions and the score disapper */
+
     var rules = document.getElementById('instructions');
     rules.classList.add('hidden');
     var board = document.getElementById('board');
     board.classList.remove('hidden');
     var score = document.getElementById('score');
     score.classList.add('hidden');
+
 /* --------- Here we reset the variables */
+
     loops = 0;
     flagVisible = false;
     gameScore = 0;

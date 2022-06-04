@@ -1,23 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
-/* --------- Global style */
-
 * {
-    padding: 5px;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-.timer {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-h1 {
-    font-size: 40px;
-    color: #000000;
 }
 
 body {
@@ -27,12 +13,17 @@ body {
     text-align: center;
 }
 
-/* --------- Heading */
+/* --------- Heading and logo */
 
 .heading {
     text-align: center;
     font-size: 2.5rem;
+    font-size: 40px;
+    color: #000000;
+    padding-top: 20px;
 }
+
+/* --------- Instructions */
 
 h2 {
     color: red;
@@ -41,7 +32,6 @@ h2 {
     padding-top: 30px;
 }
 
-
 p {
     text-align: justify;
     margin-left: 1%;
@@ -49,9 +39,6 @@ p {
     padding: 30px;
     color: black;
 }
-
-
-
 
 /* --------- Start Button */
 
@@ -67,26 +54,25 @@ input[type=button] {
     text-transform: uppercase;
     text-align: center;
     position: relative;
-
 }
 
 input:hover {
     opacity: 0.5;
 }
 
-
 /* --------- Game layout */
-
-
 
 #main {
     background-color: #efca89;
     border: 5px solid black;
     background-size: cover;
     height: 360px;
-    width: 59%;
+    width: 58%;
     margin: 0 auto;
+    padding: 20px 0;
 }
+
+/* --------- Score Area */
 
 .score-area {
     margin: 5px auto;
@@ -109,18 +95,30 @@ input:hover {
     font-weight: bold;
 }
 
+/* --------- Timer */
+
+.timer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 /* --------- Flags */
+
+#board {
+    padding: 10px 10px;
+    align-items: center;
+}
 
 .flag {
     background: url("/assets/images/Ireland1.png");
     background-size: cover;
     width: 229px;
     height: 120px;
-    padding: 10px;
     margin: 10px;
     float: left;
     display: none;
+    padding: 10px;
 }
 
 .flag:hover {
@@ -132,7 +130,6 @@ input:hover {
 .wrong-flag {
     background: url("/assets/images/Ireland.png");
     background-size: cover;
-
 }
 
 /* --------- Code to style the final score message */
@@ -144,7 +141,6 @@ p.final-result {
     color: black;
 }
 
-
 /* --------- Code to show and hide the flags */
 
 .hidden {
@@ -154,3 +150,4 @@ p.final-result {
 .visible {
     display: block;
 }
+

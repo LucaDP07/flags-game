@@ -12,8 +12,10 @@
 
 <body>
     <h1 class="heading">
-        <i class="fa-solid fa-flag"></i>Flags Game
+        <i class="fa-solid fa-flag"></i>  Flags Game
     </h1>
+
+    <!--Start Button-->
 
     <input type="button" value="Play" onclick="startGame()" ; />
     <br><br>
@@ -39,24 +41,28 @@
         <!--Game Board-->
 
         <div id="board">
-            <div class="flag">1</div>
-            <div class="flag">2</div>
-            <div class="flag">3</div>
-            <div class="flag">4</div>
-            <div class="flag">5</div>
-            <div class="flag">6</div>
+            <div class="flag"></div>
+            <div class="flag"></div>
+            <div class="flag"></div>
+            <div class="flag"></div>
+            <div class="flag"></div>
+            <div class="flag"></div>
         </div>
 
         <!--Final score-->
 
-        <div id="score" class="hidden">1234</div>
+        <div id="score" class="hidden"></div>
 
     </div>
 
-        <div class="timer">
-            <h1 id="count">20</h1>
-        </div>
+    <!--Timer-->
+    <div class="timer">
+        <h1 id="count">20</h1>
+    </div>
 
+
+
+    <!--Score area-->
 
     <div class="score-area">
         <p class="scores">Correct Answers: <span id="right">0</span></p>
