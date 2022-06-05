@@ -74,7 +74,7 @@ input:hover {
 
 /* --------- Score Area */
 
-.score-area {
+#score_area {
     margin: 5px auto;
     width: 60%;
     font-size: 1.2rem;

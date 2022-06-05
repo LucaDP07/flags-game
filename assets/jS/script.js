@@ -8,16 +8,29 @@ function startGame() {
     rules.classList.add('hidden');
     var board = document.getElementById('board');
     board.classList.remove('hidden');
+    var count = document.getElementById('count');
+    count.classList.remove('hidden');
     var score = document.getElementById('score');
     score.classList.add('hidden');
+    var scorearea = document.getElementById('score_area');
+    scorearea.classList.remove('hidden');
 
-/* --------- Here we reset the variables */
+
+    /* --------- Here we call the Timer */
+
+    startTimer();
+
+
+    /* --------- Here we reset the variables */
 
     loops = 0;
     flagVisible = false;
     gameScore = 0;
 
     gameLoop();
+
+
+
 }
 
 /* --------- Score */
@@ -30,10 +43,10 @@ var gameScore = 0;
 /* --------- Game Loop */
 
 function gameLoop() {
-    
+
     flagVisible = !flagVisible;
     createFlags();
-    loops++; 
+    loops++;
     if (loops < 12) {
         setTimeout(gameLoop, flagVisible ? 1000 : 3000);
     } else {
@@ -43,10 +56,13 @@ function gameLoop() {
         score.classList.remove('hidden');
         var html = score.innerHTML;
         score.innerHTML = `<p class="final-result">Your final score is: ${gameScore}</p>`
-        
+        if (gameScore > 0) {
+            won();
+        }
+        if (gameScore < 0) {
+            lost();
+        }
     }
-
-
 }
 
 /* --------- createFlags */
@@ -71,18 +87,32 @@ function createFlags() {
 
 /* --------- Timer */
 
-var counter = 20;
+function startTimer() {
+    var counter = 20;
 
-setInterval( function(){
-counter--;
+    setInterval(function () {
+        counter--;
 
-if( counter >= 0 ){
-    id = document.getElementById("count");
-    id.innerHTML = counter;
+        if (counter >= 0) {
+            id = document.getElementById("count");
+            id.innerHTML = counter;
+        }
+
+        if (counter === 0) {
+            id.innerHTML = "Game Over";
+        }
+    }, 1000);
 }
 
-if( counter === 0 ){
-    id.innerHTML = "Game Over";
-}
-}, 1000);
+/* --------- Herw we count the games won and lost */
 
+
+function won() {
+    let oldScore = parseInt(document.getElementById("right").innerText);
+	document.getElementById("right").innerText = ++oldScore;
+}
+
+function lost() {
+    let oldScore = parseInt(document.getElementById("wrong").innerText);
+	document.getElementById("wrong").innerText = ++oldScore;
+}
