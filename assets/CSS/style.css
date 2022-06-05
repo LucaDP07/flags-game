@@ -97,7 +97,7 @@ input:hover {
 
 /* --------- Timer */
 
-.timer {
+#timer {
     width: 100%;
     display: flex;
     justify-content: center;
