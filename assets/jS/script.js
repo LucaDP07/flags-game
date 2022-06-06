@@ -50,9 +50,9 @@ function gameLoop() {
     if (loops < 12) {
         setTimeout(gameLoop, flagVisible ? 1000 : 3000);
     } else {
-        var board = document.getElementById('board');
+        var board = document.getElementById("board");
         board.classList.add('hidden');
-        var score = document.getElementById('score');
+        var score = document.getElementById("score");
         score.classList.remove('hidden');
         var html = score.innerHTML;
         score.innerHTML = `<p class="final-result">Your final score is: ${gameScore}</p>`
