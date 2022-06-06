@@ -1,108 +1,194 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Flags Game
 
-Welcome LucaDP07,
+**SITE OVERVIEW**
+- - - 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The Table Tennis Club 07 website is a website page for passionate players ( professionals and not ) who would like to train or simply have fun in a friendly environment that offers different kind of training sessions four days a week.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Using this website users will be able to find useful information to join the Cork Community of table tennis players: Information about the Club, training sessions, memberships, location and contact information.
 
-## Gitpod Reminders
+![Alternate text](/assets/images/amIresponsive.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+You can view the deployed website [here](https://lucadp07.github.io/table-tennis-club07/).
 
-`python3 -m http.server`
+**UX**
+- - -
 
-A blue button should appear to click: _Make Public_,
+The website is designed for any type of screen in mind (Desktop, Smartphone and Tablet). The structure of each page is similar and this has been done with the purpose of providing a clear, familiar and not confusing experience to the user. The selection of colors have been chose because I feel they work well together, since they are not too aggressive and give a feel of armony throughout the three pages, including the Confirm Page you can acces to after submitting your details in the contact form.
 
-Another blue button should appear to click: _Open Browser_.
+**User Stories**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+As someone who is passionate about Table Tennis, I want the website to provide all the information necessary to get in touch with the club in order to get more details about what is the goal of the Club, when and where to join and all the memberships available.
 
-A blue button should appear to click: _Make Public_,
+As a random user of the website I would like to experience a clear design for each section and an easy navigation through all the pages.
 
-Another blue button should appear to click: _Open Browser_.
+**WIREFRAMES**
+- - -
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**Home Page**
 
-To log into the Heroku toolbelt CLI:
+![Alternate text](/assets/images/1desktop.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**Gallery Page**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Alternate text](/assets/images/2desktop.png)
 
-------
+**Contact Page**
 
-## Release History
+![Alternate text](/assets/images/3desktop.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**Mobile View**
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Alternate text](/assets/images/1mobile.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+**Tablet View**
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Alternate text](/assets/images/1tablet.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+**FEATURES**
+- - -
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+ - Navigation Bar 
+ 
+ In order to easily navigate through the website, the Navigation Bar is simple and essential with the Logo of the Club on the left side
+ (clicking on it the user is able to reach the Home Page from any section) and the links to all the other pages on the right side. The Navigation Bar is consistent in all the sections.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ ![Alternate text](/assets/images/NavigationBar.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Footer Links
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Here the user can find all the Social Media links to the club. Just like the Navigation Bar, also the Footer can be found in all the pages. This provides armony and a better experience to the user.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Alternate Text](/assets/images/Footer.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+ - Home Page
+ 
+ In the Home Page the users can find information about the Club, the memberships available and the location. All this is provided thanks to three boxes. This has been done to reach a better visual experience and also to make the content easy to be understood.
+ Just below the three boxes, the user cand find the Training Sessions. Four boxes have been created for each day of training. A background picture related to the main topic of the website has also been added in order to cover all the four boxes.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ ![Alternate text](/assets/images/Home.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+ - Gallery Page
+ 
+ A selection of 9 pictures has been created for the Gallery Page. These are random pictures that show players in action or friends having fun while playing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+ ![Alternate text](/assets/images/GalleryPage.png)
+ 
+ - Contact Page
+ 
+ In order to get in touch with the club, has been created a form to collect the details and to sumbit any query the users should have. this section helps the user to make any question and to submit their details. 
 
-------
+ ![Alternate text](/assets/images/ContactForm.png)
 
-## FAQ about the uptime script
+ - The Confirm Page
 
-**Why have you added this script?**
+ Once the user submit all the details through the form the Confirm Page opens to inform the user the message has been received and the data provided collected properly.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+ ![Alternate text](/assets/images/Thankyou.png)
+ 
 
-**How will this affect me?**
+**TECHNOLOGIES USED**
+- - -
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- HTML: HTML has been used to give structure and content to the website.
+- CSS: In order to style the content created with HTML, the CSS language has been used.
+- Google Fonts: I used the Lato and Open Sans font.
+- Font Awesome: I used ther Font Awesome icons for the logo of the Club located at the top-left of the header.
+- Pixabay & Pexels: I used a combination of these two platforms for the images of the Gallery.
+- Balsamiq Wireframes: I used it to produce low fidelity wireframes to organise the structure of the pages.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+**TESTING**
+- - - 
 
-**So….?**
+All the pages of the website have ben tested using the developer tools in Google Chrome. The code had to be changed along the process in order to achieve the responsiveness required for the project. The preview from Gitpod helped to constantly check all the changes made.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Testing was performed using a MacBook Air (M1, 2020) on macOS Monterey with the following browsers:
+- Google Chrome 100.0.4896.127
+- Safari 15.3
+- Mozilla Firefox 100.0
 
-**Can I opt out?**
+After testing the website I can confirm the project it's responsive in its all pages and works properly on all standard screen sizes.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+The hyperlinks are working in each section of the project. 
+- The Header contains links to all the pages and the logo on the left side is a link to the Home Page.
+- The Footer contains links to the Social Media pages.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+The form in the Contact Page also works.
 
-**Anything more?**
+- Every field requires an entry and the email field only accepts an email. The submit button works and leads to a "Thank You" page where the user is informed about the correct submission of the details.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+- BUGS
 
-Happy coding!
+In the Gallery, while testing the page on an iPhone SE (375X667), I noticed that at the bottom of the page there was a scroll bar. The problem was caused by some pictures that were off screen. I sorted it out by adding a media query for screens up to 400px.
+
+* VALIDATOR TESTING
+
+HTML: No errors were returned when passing through the official W3C Validator. (https://validator.w3.org/).
+
+1. [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadp07.github.io%2Ftable-tennis-club07%2F)
+2. [Gallery Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadp07.github.io%2Ftable-tennis-club07%2Fgallery.html)
+3. [Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadp07.github.io%2Ftable-tennis-club07%2Fcontact.html)
+4. [Confirm Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadp07.github.io%2Ftable-tennis-club07%2Fconfirm.html%3Fname%3Dwewewe%26lname%3Dwewew%26email%3Dqwewew%2540wewew%26message%3Dswewew)
+
+CSS: No errors were returned when passing through the official (Jigsaw) Validator (https://jigsaw.w3.org/css-validator/).
+
+Accessibility: I generated a desktop and mobile report for the deployed site through the Google Chrome Dev Tools.
+
+ - Home Page - Mobile
+ ![Alternate text](/assets/images/Home%20Page.png)
+ - Home Page - Desktop
+ ![Alternate text](/assets/images/Home%20Page-Desktop.png)
+ - Gallery Page - Mobile
+ ![Alternate text](/assets/images/Gallery.png)
+ - Gallery Page - Desktop
+ ![Alternate text](/assets/images/Gallery-Desktop.png)
+ - Contact Page - Mobile
+ ![Alternate text](/assets/images/Contact%20Page.png)
+ - Contact Page - Desktop
+ ![Alternate text](/assets/images/Contact%20Page-Desktop.png)
+ 
+
+
+- UNFIXED BUGS
+
+No unfixed bugs.
+
+**DEPLOYMENT**
+- - -
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+
+1. Navigate to my Github repository: https://github.com/LucaDP07/table-tennis-club07
+2. In the GitHub repository navigate to the settings tab.
+3. Select the pages link from the setting menu on the left hand side.
+4. After selecting the main branch, the page provides the link to the completed website
+The live link can be found here: https://lucadp07.github.io/table-tennis-club07/
+
+**CREDITS**
+- - - 
+
+**Content**
+
+- Header and Footer structure was taken from CI [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) Project.
+
+- In the Home Page the structure of the 3 boxes was inspired by [SoftCode](https://www.youtube.com/channel/UCFMUDZwgjuh0mf9pV0ZaqTw).
+
+- In the Home Page the section "Training Sessions" was inspired by [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) Project.
+
+- Gallery structure was inspired by [Web Master](https://www.youtube.com/channel/UCftpQ1d4SbYDrv6MfCel_iw).
+
+- Form structure for the Contact Page was inspired by [DarkCode](https://www.youtube.com/c/DarkCodeOnline).
+
+**Media**
+
+- The icons used for the logo and in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
+- All fonts imported from [Google Fonts](https://fonts.google.com/).
+
+- Screenshot under the section "site overview" was created with [Am I responsive](https://ui.dev/amiresponsive).
+
+- Pictures used for the Gallery Page have been taken from [Pixabay](https://pixabay.com/).
+
+- The wireframes have been created using [Balsamiq Wireframes](https://balsamiq.com/wireframes/).
