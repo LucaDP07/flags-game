@@ -52,7 +52,7 @@ function gameLoop() {
     } 
     else {
         var board = document.getElementById("board");
-        board.classList.remove('hidden');
+        board.classList.add('hidden');
         var score = document.getElementById("score");
         score.classList.remove('hidden');
         var html = score.innerHTML;
