@@ -49,9 +49,10 @@ function gameLoop() {
     loops++;
     if (loops < 12) {
         setTimeout(gameLoop, flagVisible ? 1000 : 3000);
-    } else {
+    } 
+    else {
         var board = document.getElementById("board");
-        board.classList.add('hidden');
+        board.classList.remove('hidden');
         var score = document.getElementById("score");
         score.classList.remove('hidden');
         var html = score.innerHTML;
@@ -109,10 +110,10 @@ function startTimer() {
 
 function won() {
     let oldScore = parseInt(document.getElementById("right").innerText);
-	document.getElementById("right").innerText = ++oldScore;
+    document.getElementById("right").innerText = ++oldScore;
 }
 
 function lost() {
     let oldScore = parseInt(document.getElementById("wrong").innerText);
-	document.getElementById("wrong").innerText = ++oldScore;
+    document.getElementById("wrong").innerText = ++oldScore;
 }
