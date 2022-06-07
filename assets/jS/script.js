@@ -40,7 +40,7 @@ var flagVisible = false;
 var gameScore = 0;
 
 
-/* --------- Game Loop */
+/* --------- Here we animate the flags so that they flash on and off the screen  */
 
 function gameLoop() {
 
@@ -66,7 +66,7 @@ function gameLoop() {
     }
 }
 
-/* --------- createFlags */
+/* --------- Here we add 1 point to the score if the answer is right and deduct 2 points if the answer is wrong */
 
 function createFlags() {
     var board = document.getElementById("board");
@@ -78,6 +78,7 @@ function createFlags() {
             gameScore += -2;
         }
     }
+    /* --------- This code will randomly pick a random flag to be the intruder */
     var randomNumber = Math.floor(Math.random() * 6) + 1;
     board.children[randomNumber - 1].innerHTML = "";
     board.children[randomNumber - 1].onclick = function () {
@@ -105,7 +106,7 @@ function startTimer() {
     }, 1000);
 }
 
-/* --------- Herw we count the games won and lost */
+/* --------- Here we count the games won and lost */
 
 
 function won() {
