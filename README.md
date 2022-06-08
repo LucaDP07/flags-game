@@ -3,24 +3,26 @@
 **SITE OVERVIEW**
 - - - 
 
-The Table Tennis Club 07 website is a website page for passionate players ( professionals and not ) who would like to train or simply have fun in a friendly environment that offers different kind of training sessions four days a week.
+The Flags Game is a way to test and train the player's reaction time, while having fun.
 
-Using this website users will be able to find useful information to join the Cork Community of table tennis players: Information about the Club, training sessions, memberships, location and contact information.
+The player has to deal with a different set of six flags every three seconds. Five of these represent the Irish flag, while the last one it's the flag of the Ivory Coast, very similar to the Irish one. The player needs to catch the Ivory Coast flag (the intruder). Everytime the player clicks on the Ivory Coast flag a point will be added to the score, and to make sure the player is paying attention, every click onthe Irish flag will take away 2 points.
 
 ![Alternate text](/assets/images/amIresponsive.png)
 
-You can view the deployed website [here](https://lucadp07.github.io/table-tennis-club07/).
+You can view the deployed website [here](https://lucadp07.github.io/flags-game/).
 
 **UX**
 - - -
 
-The website is designed for any type of screen in mind (Desktop, Smartphone and Tablet). The structure of each page is similar and this has been done with the purpose of providing a clear, familiar and not confusing experience to the user. The selection of colors have been chose because I feel they work well together, since they are not too aggressive and give a feel of armony throughout the three pages, including the Confirm Page you can acces to after submitting your details in the contact form.
+The website is designed for any type of screen in mind (Desktop, Smartphone and Tablet). The structure of each section is simple,  user friendly and clear. The selection of colors are inspired by the Irish and Ivory Coast flag, which are the core of the game. The main board has been created to contain the instructions, the game itself and a message showing the final score. All this provides a familiar and not confusing experience to the user. 
 
 **User Stories**
 
-As someone who is passionate about Table Tennis, I want the website to provide all the information necessary to get in touch with the club in order to get more details about what is the goal of the Club, when and where to join and all the memberships available.
+As someone who is passionate about reaction time games, I want to challenge my reflexes.
 
-As a random user of the website I would like to experience a clear design for each section and an easy navigation through all the pages.
+As a flags lover I would like to experience a game based on flags. 
+
+As a random gamer I would like to experience a clear design for each section and an easy navigation through all of them.
 
 **WIREFRAMES**
 - - -
