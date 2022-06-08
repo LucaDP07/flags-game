@@ -66,7 +66,7 @@ input:hover {
     background-color: #efca89;
     border: 5px solid black;
     background-size: cover;
-    height: 360px;
+    min-height: 360px;
     width: 58%;
     margin: 0 auto;
     padding: 20px 0;
@@ -111,7 +111,7 @@ input:hover {
 }
 
 .flag {
-    background: url("/assets/images/Ireland1.png");
+    background: url("assets/images/Ireland1.png");
     background-size: cover;
     width: 229px;
     height: 120px;
@@ -128,7 +128,7 @@ input:hover {
 }
 
 .wrong-flag {
-    background: url("/assets/images/Ireland.png");
+    background: url("assets/images/Ireland.png");
     background-size: cover;
 }
 
