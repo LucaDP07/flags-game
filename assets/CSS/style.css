@@ -111,7 +111,7 @@ input:hover {
 }
 
 .flag {
-    background: url("assets/images/Ireland1.png");
+    background: url("../images/Ireland1.png");
     background-size: cover;
     width: 229px;
     height: 120px;
@@ -128,7 +128,7 @@ input:hover {
 }
 
 .wrong-flag {
-    background: url("assets/images/Ireland.png");
+    background: url("../images/Ireland.png");
     background-size: cover;
 }
 
