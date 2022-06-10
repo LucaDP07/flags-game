@@ -7,48 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/CSS/style.css">
     <title>Flags Game</title>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-    <!--Game name-->
-
+    <!--Game name and logo-->
     <h1 class="heading">
         <i class="fa-solid fa-flag"></i> Flags Game
     </h1>
-
     <!--Start Button-->
-
-    <input type="button" value="Play" onclick="startGame()"/>
+    <input type="button" value="Play" onclick="startGame()" />
     <br><br>
-
- <!--Current Score area-->
+    <!--Current Score area-->
     <div id="score_area1" class="hidden">
         <p class="scores">Current Score: <span id="current_score"></span></p>
     </div>
-    
-
     <!--Game Container-->
-
     <div id="main">
-
-        <!--Instructions-->
+        <!--Game Instructions-->
         <div id="instructions">
             <h2>Welcome to the Flags Game!</h2>
             <p>Before getting started and have some fun, let's take a moment and see what the rules are:<br>
                 Once the player click "Play"
                 the game board will show a different set of 6 flags every 3 seconds.<br>
-                5 of these represent the Irish flag, while the last one it's the Ivory Coast flag, very similar to the Irish
+                5 of these represent the Irish flag, while the last one it's the Ivory Coast flag, very similar to the
+                Irish
                 one.
-                The player has 20 seconds to catch the Ivory Coast flag as many times as possible. Everytime the player clicks on the Ivory Coast
+                The player has 20 seconds to catch the Ivory Coast flag as many times as possible. Everytime the player
+                clicks on the Ivory Coast
                 flag a point will be added to the score, and to make sure the player is paying attention, every click on
                 the Irish flag will take away 2 points. Are you ready? Let's get started!
             </p>
         </div>
-
         <!--Game Board-->
-
         <div id="board">
             <div class="flag"></div>
             <div class="flag"></div>
@@ -57,32 +47,21 @@
             <div class="flag"></div>
             <div class="flag"></div>
         </div>
-
         <!--Final score-->
-
         <div id="score" class="hidden"></div>
-
     </div>
-
     <!--Timer-->
-    <div id="timer" >
+    <div id="timer">
         <h1 class="hidden" id="count">20</h1>
     </div>
-
-
-
-    <!--Score area-->
-
+    <!--Games won and lost area-->
     <div id="score_area" class="hidden">
-        <p class="scores">Games Won: <span id="right">0</span></p>
-        <p class="scores">Games Lost: <span id="wrong">0</span></p>
-        
+        <p class="scores">Games Won: <span id="won">0</span></p>
+        <p class="scores">Games Lost: <span id="lost">0</span></p>
     </div>
     <script src="assets/JS/script.js"></script>
-
-    <!--font awesome script here-->
+    <!--font awesome script-->
     <script src="https://kit.fontawesome.com/a14cb28700.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>

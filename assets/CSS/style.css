@@ -13,7 +13,7 @@ body {
     text-align: center;
 }
 
-/* --------- Heading and logo */
+/* Heading and logo */
 
 .heading {
     text-align: center;
@@ -23,7 +23,7 @@ body {
     padding-top: 20px;
 }
 
-/* --------- Instructions */
+/* Instructions */
 
 h2 {
     color: red;
@@ -40,7 +40,7 @@ p {
     color: black;
 }
 
-/* --------- Start Button */
+/* Start Button */
 
 input[type=button] {
     background-color: #FF883E;
@@ -60,7 +60,7 @@ input:hover {
     opacity: 0.5;
 }
 
-/* --------- Game layout */
+/* Game Container */
 
 #main {
     background-color: #efca89;
@@ -72,7 +72,7 @@ input:hover {
     padding: 20px 0;
 }
 
-/* --------- Score Area */
+/* Score Area */
 
 #score_area1 {
     margin: 5px auto;
@@ -92,17 +92,17 @@ input:hover {
     padding: 25px;
 }
 
-#right {
+#won {
     color: green;
     font-weight: bold;
 }
 
-#wrong {
+#lost {
     color: orange;
     font-weight: bold;
 }
 
-/* --------- Timer */
+/* Timer */
 
 #timer {
     width: 100%;
@@ -110,7 +110,7 @@ input:hover {
     justify-content: center;
 }
 
-/* --------- Flags */
+/* Board Game area */
 
 #board {
     padding: 10px 10px;
@@ -139,7 +139,7 @@ input:hover {
     background-size: cover;
 }
 
-/* --------- Code to style the final score message */
+/* Code to style the final score message */
 
 p.final-result {
     font-size: 40px;
@@ -148,7 +148,7 @@ p.final-result {
     color: black;
 }
 
-/* --------- Code to show and hide the flags */
+/* Code to show and hide the elements */
 
 .hidden {
     display: none;
