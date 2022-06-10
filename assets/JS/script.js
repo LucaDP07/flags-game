@@ -56,7 +56,7 @@ function gameLoop() {
         var score = document.getElementById("score");
         score.classList.remove('hidden');
         var html = score.innerHTML;
-        score.innerHTML = `<p class="final-result">Your final score is: ${gameScore}</p>`
+        score.innerHTML = `<p class="final-result">Your final score is: ${gameScore}</p>`;
         if (gameScore > 0) {
             won();
         }
