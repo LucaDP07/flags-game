@@ -31,21 +31,29 @@ As a random gamer I would like to experience a clear design for each section and
 
 ![Alternate text](/assets/images/1desktop.png)
 
-**Gallery Page**
+**Game Page**
 
 ![Alternate text](/assets/images/2desktop.png)
 
-**Contact Page**
+**Final Score Page**
 
 ![Alternate text](/assets/images/3desktop.png)
 
-**Mobile View**
-
-![Alternate text](/assets/images/1mobile.png)
-
-**Tablet View**
+**Home Page: Tablet View**
 
 ![Alternate text](/assets/images/1tablet.png)
+
+**Game Page: Tablet View**
+
+![Alternate text](/assets/images/2tablet.png)
+
+**Home Page: Mobile View**
+
+![Alternate text](/assets/images/1smartphone.png)
+
+**Game Page: Mobile View**
+
+![Alternate text](/assets/images/2smartphone.png)
 
 
 **FEATURES**
