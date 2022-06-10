@@ -59,43 +59,47 @@ As a random gamer I would like to experience a clear design for each section and
 **FEATURES**
 - - -
 
- - Navigation Bar 
+ - The Flags Game Logo and Heading
  
- In order to easily navigate through the website, the Navigation Bar is simple and essential with the Logo of the Club on the left side
- (clicking on it the user is able to reach the Home Page from any section) and the links to all the other pages on the right side. The Navigation Bar is consistent in all the sections.
+ At the top of the page the user can find the logo and the heading of the game. These two features are consistent in all the sections.
 
- ![Alternate text](/assets/images/NavigationBar.png)
+ ![Alternate text](/assets/images/title.png)
 
-- Footer Links
+- The Instructions
 
-Here the user can find all the Social Media links to the club. Just like the Navigation Bar, also the Footer can be found in all the pages. This provides armony and a better experience to the user.
+Here the user can find the rules of the game explained. Before starting to have fun, a quick look at the instructions will help to enjoy the game.
 
-![Alternate Text](/assets/images/Footer.png)
+![Alternate Text](/assets/images/Instructions.png)
 
- - Home Page
+ - The Start Button
  
- In the Home Page the users can find information about the Club, the memberships available and the location. All this is provided thanks to three boxes. This has been done to reach a better visual experience and also to make the content easy to be understood.
- Just below the three boxes, the user cand find the Training Sessions. Four boxes have been created for each day of training. A background picture related to the main topic of the website has also been added in order to cover all the four boxes.
+ Right below the logo and the heading, the user can find the Start Button. Once the player has read the instructions, can simply click on ther button to start to play. In the Game Area the button will still be there and everytime the user will ends a game, simply by clicking the button a new game will be started.
 
- ![Alternate text](/assets/images/Home.png)
+ ![Alternate text](/assets/images/StartButton.png)
 
- - Gallery Page
+ - The Board Game
  
- A selection of 9 pictures has been created for the Gallery Page. These are random pictures that show players in action or friends having fun while playing.
+ Once the user clicks on the Start Button, the game starts. The instructions will be replaced by a different set of six flags will be visible every 3 seconds. Five of these represent the Irish flag, while the last one it's the Ivory Coast flag, very similar to the Irish one. The player has 20 seconds to catch the Ivory Coast flag as many times as possible. Everytime the player clicks on the Ivory Coast flag a point will be added to the score, and to make sure the player is paying attention, every click on the Irish flag will take away 2 points.
 
- ![Alternate text](/assets/images/GalleryPage.png)
+ ![Alternate text](/assets/images/gameboard.png)
  
- - Contact Page
+ - The Current Score Area
  
- In order to get in touch with the club, has been created a form to collect the details and to sumbit any query the users should have. this section helps the user to make any question and to submit their details. 
+ Under the Start Button, the user can see the Current Score Area, which will be visible only in the Game Area. The score gets updated everytime the player clicks on the right or wrong flag. In this way the user has the chance to keep track of his/her performance.
 
- ![Alternate text](/assets/images/ContactForm.png)
+ ![Alternate text](/assets/images/CurrentScore.png)
 
- - The Confirm Page
+ - The Score Area and the Timer
 
- Once the user submit all the details through the form the Confirm Page opens to inform the user the message has been received and the data provided collected properly.
+ Under the Board Game, the user can find a timer of 20 seconds which will help to keep track of the time left to complete the game. Also, under the timer, the player can find the resume of the games won and lost. The colors choosen for it are green and orange as a connection to the irish flag.
 
- ![Alternate text](/assets/images/Thankyou.png)
+ ![Alternate text](/assets/images/timer.png)
+
+  - The Final Score Message
+
+ Once the 20 seconds are over the Game Board will display the final score which will replace the flags.
+
+ ![Alternate text](/assets/images/ScoreMessage.png)
  
 
 **TECHNOLOGIES USED**
@@ -104,8 +108,8 @@ Here the user can find all the Social Media links to the club. Just like the Nav
 - HTML: HTML has been used to give structure and content to the website.
 - CSS: In order to style the content created with HTML, the CSS language has been used.
 - Google Fonts: I used the Lato and Open Sans font.
-- Font Awesome: I used ther Font Awesome icons for the logo of the Club located at the top-left of the header.
-- Pixabay & Pexels: I used a combination of these two platforms for the images of the Gallery.
+- Font Awesome: I used ther Font Awesome icons for the logo of the game located at the top-left of the heading.
+- Pixabay: I used this platform for the images of the flags.
 - Balsamiq Wireframes: I used it to produce low fidelity wireframes to organise the structure of the pages.
 
 
