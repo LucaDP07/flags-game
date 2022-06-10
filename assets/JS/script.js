@@ -12,8 +12,11 @@ function startGame() {
     count.classList.remove('hidden');
     var score = document.getElementById('score');
     score.classList.add('hidden');
+    var scorearea = document.getElementById('score_area1');
+    scorearea.classList.remove('hidden');
     var scorearea = document.getElementById('score_area');
     scorearea.classList.remove('hidden');
+    document.getElementById("current_score").innerText = 0;
 
 
     /* --------- Here we call the Timer */
@@ -76,6 +79,8 @@ function createFlags() {
         board.children[index].innerHTML = "";
         board.children[index].onclick = function () {
             gameScore += -2;
+            document.getElementById("current_score").innerText = gameScore;
+
         }
     }
     /* --------- This code will randomly pick a random flag to be the intruder */
@@ -83,6 +88,7 @@ function createFlags() {
     board.children[randomNumber - 1].innerHTML = "";
     board.children[randomNumber - 1].onclick = function () {
         gameScore++;
+        document.getElementById("current_score").innerText = gameScore;
     }
     board.children[randomNumber - 1].className = classToSet + " wrong-flag";
 }

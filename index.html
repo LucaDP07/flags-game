@@ -23,6 +23,12 @@
     <input type="button" value="Play" onclick="startGame()"/>
     <br><br>
 
+ <!--Current Score area-->
+    <div id="score_area1" class="hidden">
+        <p class="scores">Current Score: <span id="current_score"></span></p>
+    </div>
+    
+
     <!--Game Container-->
 
     <div id="main">
@@ -33,9 +39,9 @@
             <p>Before getting started and have some fun, let's take a moment and see what the rules are:<br>
                 Once the player click "Play"
                 the game board will show a different set of 6 flags every 3 seconds.<br>
-                5 of these represent the Irish flag, while the last one it's the Italian flag, very similar to the Irish
+                5 of these represent the Irish flag, while the last one it's the Ivory Coast flag, very similar to the Irish
                 one.
-                The player needs to catch the italian flag (the intruder). Everytime the player clicks on the Italian
+                The player has 20 seconds to catch the Ivory Coast flag as many times as possible. Everytime the player clicks on the Ivory Coast
                 flag a point will be added to the score, and to make sure the player is paying attention, every click on
                 the Irish flag will take away 2 points. Are you ready? Let's get started!
             </p>
@@ -70,6 +76,7 @@
     <div id="score_area" class="hidden">
         <p class="scores">Games Won: <span id="right">0</span></p>
         <p class="scores">Games Lost: <span id="wrong">0</span></p>
+        
     </div>
     <script src="assets/JS/script.js"></script>
 
