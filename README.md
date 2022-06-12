@@ -125,29 +125,24 @@ Testing was performed using a MacBook Air (M1, 2020) on macOS Monterey with the 
 
 After testing the website I can confirm the project it's responsive in its all pages and works properly on all standard screen sizes.
 
-The hyperlinks are working in each section of the project. 
-- The Header contains links to all the pages and the logo on the left side is a link to the Home Page.
-- The Footer contains links to the Social Media pages.
-
-The form in the Contact Page also works.
-
-- Every field requires an entry and the email field only accepts an email. The submit button works and leads to a "Thank You" page where the user is informed about the correct submission of the details.
+The "Play" button is working in each section of the project. 
+- In the Home Page the button starts the game. 
+- In the Board Game/Game Area the button reset the score and starts a new game.
 
 
 - BUGS
 
-In the Gallery, while testing the page on an iPhone SE (375X667), I noticed that at the bottom of the page there was a scroll bar. The problem was caused by some pictures that were off screen. I sorted it out by adding a media query for screens up to 400px.
+While on GitPod I was able to see the flags flashing in the Board Game, after the deployment the live site was not showing the same results as on GitPod. Since I was refencing my images from my css file, I had to tell the server to come out of the css folder. Sorted fixing the path.
 
 * VALIDATOR TESTING
 
-HTML: No errors were returned when passing through the official W3C Validator. (https://validator.w3.org/).
+HTML: No errors were returned when passing through the official W3C Validator. (https://validator.w3.org/nu/#textarea).
 
-1. [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadp07.github.io%2Ftable-tennis-club07%2F)
-2. [Gallery Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadp07.github.io%2Ftable-tennis-club07%2Fgallery.html)
-3. [Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadp07.github.io%2Ftable-tennis-club07%2Fcontact.html)
-4. [Confirm Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucadp07.github.io%2Ftable-tennis-club07%2Fconfirm.html%3Fname%3Dwewewe%26lname%3Dwewew%26email%3Dqwewew%2540wewew%26message%3Dswewew)
 
-CSS: No errors were returned when passing through the official (Jigsaw) Validator (https://jigsaw.w3.org/css-validator/).
+
+CSS: No errors were returned when passing through the official (Jigsaw) Validator (https://jigsaw.w3.org/css-validator/validator).
+
+JavaScript: No errors were found on the website when using [JSHint Validator]https://jshint.com/ .
 
 Accessibility: I generated a desktop and mobile report for the deployed site through the Google Chrome Dev Tools.
 
@@ -163,6 +158,8 @@ Accessibility: I generated a desktop and mobile report for the deployed site thr
  ![Alternate text](/assets/images/Contact%20Page.png)
  - Contact Page - Desktop
  ![Alternate text](/assets/images/Contact%20Page-Desktop.png)
+
+ 
  
 
 

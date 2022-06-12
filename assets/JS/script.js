@@ -1,17 +1,8 @@
-/* --------- Score */
-
-let loops = 0;
-let flagVisible = false;
-let gameScore = 0;
-
-
 /**
  * Once you start the game the div of board is visible
  * and the instructions and the score disapper
  */
 function startGame() {
-
-
 
     var rules = document.getElementById('instructions');
     rules.classList.add('hidden');
@@ -21,8 +12,8 @@ function startGame() {
     count.classList.remove('hidden');
     var score = document.getElementById('score');
     score.classList.add('hidden');
-    var scorearea = document.getElementById('score_area1');
-    scorearea.classList.remove('hidden');
+    var scorearea1 = document.getElementById('score_area1');
+    scorearea1.classList.remove('hidden');
     var scorearea = document.getElementById('score_area');
     scorearea.classList.remove('hidden');
     document.getElementById("current_score").innerText = 0;
@@ -31,6 +22,12 @@ function startGame() {
     /* --------- Here we call the Timer */
 
     startTimer();
+
+    /* --------- Score */
+
+    let loops = 0;
+    let flagVisible = false;
+    let gameScore = 0;
 
 
     /* --------- Here we reset the variables */
@@ -79,7 +76,7 @@ function createFlags() {
             gameScore += -2;
             document.getElementById("current_score").innerText = gameScore;
 
-        }
+        };
     }
     /* --------- This code will randomly pick a random flag to be the intruder */
     var randomNumber = Math.floor(Math.random() * 6) + 1;
