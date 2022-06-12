@@ -1,6 +1,7 @@
 /**
- * Once you start the game the div of board is visible
- * and the instructions and the score disapper
+ * With the code below, once the player click on the Play button
+ * the div board, timer, score_area and score_area1 are visible
+ * The instructions disapper once the Play button has been clicked
  */
 function startGame() {
 
@@ -16,14 +17,14 @@ function startGame() {
     scorearea1.classList.remove('hidden');
     var scorearea = document.getElementById('score_area');
     scorearea.classList.remove('hidden');
-    document.getElementById("current_score").innerText = 0;
+    document.getElementById('current_score').innerText = 0;
 
-    /* --------- Here we call the Timer */
+    // Here we call the Timer
 
     startTimer();
 
 
-    /* --------- Here we reset the variables */
+    // Here we reset the variables
 
     loops = 0;
     flagVisible = false;
