@@ -18,16 +18,9 @@ function startGame() {
     scorearea.classList.remove('hidden');
     document.getElementById("current_score").innerText = 0;
 
-
     /* --------- Here we call the Timer */
 
     startTimer();
-
-    /* --------- Score */
-
-    let loops = 0;
-    let flagVisible = false;
-    let gameScore = 0;
 
 
     /* --------- Here we reset the variables */
@@ -38,6 +31,12 @@ function startGame() {
 
     gameLoop();
 }
+
+/* --------- Score */
+
+var loops = 0;
+var flagVisible = false;
+var gameScore = 0;
 
 /* --------- Here we animate the flags so that they flash on and off the screen  */
 
@@ -91,7 +90,7 @@ function createFlags() {
 /* --------- Timer */
 
 function startTimer() {
-    var counter = 20;
+    var counter = 21;
 
     setInterval(function () {
         counter--;

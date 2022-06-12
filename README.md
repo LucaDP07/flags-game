@@ -150,18 +150,16 @@ Accessibility: I generated a desktop and mobile report for the deployed site thr
  ![Alternate text](/assets/images/Home%20Page.png)
  - Home Page - Desktop
  ![Alternate text](/assets/images/Home%20Page-Desktop.png)
- - Gallery Page - Mobile
+ - Game Page - Mobile
  ![Alternate text](/assets/images/Gallery.png)
- - Gallery Page - Desktop
+ - Game Page - Desktop
  ![Alternate text](/assets/images/Gallery-Desktop.png)
- - Contact Page - Mobile
+ - Final Score Page - Mobile
  ![Alternate text](/assets/images/Contact%20Page.png)
- - Contact Page - Desktop
+ - Final Score Page - Desktop
  ![Alternate text](/assets/images/Contact%20Page-Desktop.png)
 
  
- 
-
 
 - UNFIXED BUGS
 
@@ -171,26 +169,23 @@ No unfixed bugs.
 - - -
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-1. Navigate to my Github repository: https://github.com/LucaDP07/table-tennis-club07
+1. Navigate to my Github repository: https://github.com/LucaDP07/flags-game
 2. In the GitHub repository navigate to the settings tab.
 3. Select the pages link from the setting menu on the left hand side.
 4. After selecting the main branch, the page provides the link to the completed website
-The live link can be found here: https://lucadp07.github.io/table-tennis-club07/
+The live link can be found here: https://lucadp07.github.io/flags-game/
 
 **CREDITS**
 - - - 
 
 **Content**
 
-- Header and Footer structure was taken from CI [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) Project.
+- The Heading and the Logo were inspired by the [Love Maths](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/a8ec361b95e94c25bf8a821654bd57bc/?child=first) Project.
 
-- In the Home Page the structure of the 3 boxes was inspired by [SoftCode](https://www.youtube.com/channel/UCFMUDZwgjuh0mf9pV0ZaqTw).
+- The Timer structure was inspired by [WEB CIFAR](https://www.youtube.com/c/WEBCIFAROfficial).
 
-- In the Home Page the section "Training Sessions" was inspired by [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) Project.
+- The Score Area was inspired by the [Love Maths](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/a8ec361b95e94c25bf8a821654bd57bc/?child=first) Project.
 
-- Gallery structure was inspired by [Web Master](https://www.youtube.com/channel/UCftpQ1d4SbYDrv6MfCel_iw).
-
-- Form structure for the Contact Page was inspired by [DarkCode](https://www.youtube.com/c/DarkCodeOnline).
 
 **Media**
 
@@ -200,6 +195,6 @@ The live link can be found here: https://lucadp07.github.io/table-tennis-club07/
 
 - Screenshot under the section "site overview" was created with [Am I responsive](https://ui.dev/amiresponsive).
 
-- Pictures used for the Gallery Page have been taken from [Pixabay](https://pixabay.com/).
+- Pictures used for the Game have been taken from [Pixabay](https://pixabay.com/).
 
 - The wireframes have been created using [Balsamiq Wireframes](https://balsamiq.com/wireframes/).
