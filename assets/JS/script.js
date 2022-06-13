@@ -1,3 +1,15 @@
+// Code to be executed when the page has finished loading
+// Code to be executed when the user clicks the play button
+
+document.addEventListener("DOMContentLoaded", function () {
+    let start_button = document.getElementById("start_button");
+
+    start_button.addEventListener('click', () => {
+        startGame();
+    });
+
+})
+
 /**
  * With the code below, once the player click on the Play button
  * the div board, timer, score_area and score_area1 are visible
