@@ -7,7 +7,7 @@ The Flags Game is a way to test and train the player's reaction time, while havi
 
 The player has to deal with a different set of six flags every three seconds. Five of these represent the Irish flag, while the last one it's the flag of the Ivory Coast, very similar to the Irish one. The player needs to catch the Ivory Coast flag (the intruder). Everytime the player clicks on the Ivory Coast flag a point will be added to the score, and to make sure the player is paying attention, every click onthe Irish flag will take away 2 points.
 
-![Alternate text](/assets/images/amIresponsive.png)
+![Alternate text](/assets/images/Responsive.png)
 
 You can view the deployed website [here](https://lucadp07.github.io/flags-game/).
 
@@ -59,7 +59,7 @@ As a random gamer I would like to experience a clear design for each section and
 **FEATURES**
 - - -
 
- - The Flags Game Logo and Heading
+ - The Game Logo and Heading
  
  At the top of the page the user can find the logo and the heading of the game. These two features are consistent in all the sections.
 
@@ -81,7 +81,7 @@ Here the user can find the rules of the game explained. Before starting to have 
  
  Once the user clicks on the Start Button, the game starts. The instructions will be replaced by a different set of six flags will be visible every 3 seconds. Five of these represent the Irish flag, while the last one it's the Ivory Coast flag, very similar to the Irish one. The player has 20 seconds to catch the Ivory Coast flag as many times as possible. Everytime the player clicks on the Ivory Coast flag a point will be added to the score, and to make sure the player is paying attention, every click on the Irish flag will take away 2 points.
 
- ![Alternate text](/assets/images/gameboard.png)
+ ![Alternate text](/assets/images/board.png)
  
  - The Current Score Area
  
@@ -107,8 +107,8 @@ Here the user can find the rules of the game explained. Before starting to have 
 
 - HTML: HTML has been used to give structure and content to the website.
 - CSS: In order to style the content created with HTML, the CSS language has been used.
-- Google Fonts: I used the Lato and Open Sans font.
-- Font Awesome: I used ther Font Awesome icons for the logo of the game located at the top-left of the heading.
+- Google Fonts: I used the Kanit and sans-serif font.
+- Font Awesome: I used ther Font Awesome icons for the logo of the game located at the left of the heading.
 - Pixabay: I used this platform for the images of the flags.
 - Balsamiq Wireframes: I used it to produce low fidelity wireframes to organise the structure of the pages.
 
@@ -119,9 +119,9 @@ Here the user can find the rules of the game explained. Before starting to have 
 All the pages of the website have ben tested using the developer tools in Google Chrome. The code had to be changed along the process in order to achieve the responsiveness required for the project. The preview from Gitpod helped to constantly check all the changes made.
 
 Testing was performed using a MacBook Air (M1, 2020) on macOS Monterey with the following browsers:
-- Google Chrome 100.0.4896.127
+- Google Chrome 102.0.5005.61
 - Safari 15.3
-- Mozilla Firefox 100.0
+- Mozilla Firefox 101.0.1
 
 After testing the website I can confirm the project it's responsive in its all pages and works properly on all standard screen sizes.
 
@@ -132,13 +132,11 @@ The "Play" button is working in each section of the project.
 
 - BUGS
 
-While on GitPod I was able to see the flags flashing in the Board Game, after the deployment the live site was not showing the same results as on GitPod. Since I was refencing my images from my css file, I had to tell the server to come out of the css folder. Sorted fixing the path.
+While on GitPod I was able to see the flags flashing in the Board Game, after the deployment, the live site was not showing the same results as on GitPod. Since I was refencing my images from my css file, I had to tell the server to come out of the css folder. Sorted fixing the path.
 
 * VALIDATOR TESTING
 
 HTML: No errors were returned when passing through the official W3C Validator. (https://validator.w3.org/nu/#textarea).
-
-
 
 CSS: No errors were returned when passing through the official (Jigsaw) Validator (https://jigsaw.w3.org/css-validator/validator).
 
@@ -147,20 +145,11 @@ JavaScript: No errors were found on the website when using [JSHint Validator]htt
 Accessibility: I generated a desktop and mobile report for the deployed site through the Google Chrome Dev Tools.
 
  - Home Page - Mobile
- ![Alternate text](/assets/images/Home%20Page.png)
+ ![Alternate text](/assets/images/lighthouse.png)
  - Home Page - Desktop
- ![Alternate text](/assets/images/Home%20Page-Desktop.png)
- - Game Page - Mobile
- ![Alternate text](/assets/images/Gallery.png)
- - Game Page - Desktop
- ![Alternate text](/assets/images/Gallery-Desktop.png)
- - Final Score Page - Mobile
- ![Alternate text](/assets/images/Contact%20Page.png)
- - Final Score Page - Desktop
- ![Alternate text](/assets/images/Contact%20Page-Desktop.png)
+ ![Alternate text](/assets/images/lighthouse_desktop.png)
 
  
-
 - UNFIXED BUGS
 
 No unfixed bugs.
@@ -189,7 +178,7 @@ The live link can be found here: https://lucadp07.github.io/flags-game/
 
 **Media**
 
-- The icons used for the logo and in the footer were taken from [Font Awesome](https://fontawesome.com/).
+- The icon used for the logo was taken from [Font Awesome](https://fontawesome.com/).
 
 - All fonts imported from [Google Fonts](https://fonts.google.com/).
 

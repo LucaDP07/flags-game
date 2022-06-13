@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         startGame();
     });
 
-})
+});
 
 /**
  * With the code below, once the player click on the Play button
@@ -25,10 +25,10 @@ function startGame() {
     count.classList.remove('hidden');
     var score = document.getElementById('score');
     score.classList.add('hidden');
-    var scorearea1 = document.getElementById('score_area1');
-    scorearea1.classList.remove('hidden');
-    var scorearea = document.getElementById('score_area');
-    scorearea.classList.remove('hidden');
+    var scoreTop = document.getElementById('score_top');
+    scoreTop.classList.remove('hidden');
+    var scoreBottom = document.getElementById('score_bottom');
+    scoreBottom.classList.remove('hidden');
     document.getElementById('current_score').innerText = 0;
 
     // Here we call the Timer
@@ -96,7 +96,7 @@ function createFlags() {
     board.children[randomNumber - 1].onclick = function () {
         gameScore++;
         document.getElementById("current_score").innerText = gameScore;
-    }
+    };
     board.children[randomNumber - 1].className = classToSet + " wrong-flag";
 }
 
