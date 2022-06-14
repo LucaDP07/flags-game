@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Here we set the order in which the informations will be displayed on the screen once the player click on the Play button
+// This code was created by myself
 function startGame() {
 
     var rules = document.getElementById('instructions');
@@ -48,6 +49,7 @@ var gameScore = 0;
 // Here we make our game loops for a fixed number of times before the game ends
 // At the end of the game the final score will be shown
 // Here we animate the flags so that they flash on and off the screen
+// This code was inspired by the book Get Coding
 
 function gameLoop() {
 
@@ -74,6 +76,7 @@ function gameLoop() {
 
 // Here we crate a new set of flags in different positions everytime the game loop runs
 // The variable gameScore keeps track of the score. We subtract 2 from the gameScore value if the wrong flag is selected
+// This code was inspired by the book Get Coding
 
 function createFlags() {
     var board = document.getElementById("board");
@@ -89,6 +92,8 @@ function createFlags() {
 
     // This code will randomly pick a random flag to be the intruder everytime the game loop runs
     // The variable gameScore keeps track of the score. We add 1 to the gameScore value if the correct flag is selected
+    // This code was inspired by the book Get Coding
+
     var randomNumber = Math.floor(Math.random() * 6) + 1;
     board.children[randomNumber - 1].innerHTML = "";
     board.children[randomNumber - 1].onclick = function () {
@@ -99,6 +104,7 @@ function createFlags() {
 }
 
 // Here we set the Timer
+//This code was inspired by the YouTube channel WEB CIFAR
 
 function startTimer() {
     var counter = 21;
@@ -118,6 +124,7 @@ function startTimer() {
 }
 
 // Here we count the games won and lost
+// This code was inspired by the Love Maths Project
 
 function won() {
     let oldScore = parseInt(document.getElementById("won").innerText);
