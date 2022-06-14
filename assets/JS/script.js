@@ -7,14 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
     start_button.addEventListener('click', () => {
         startGame();
     });
-
 });
 
-/**
- * With the code below, once the player click on the Play button
- * the div board, timer, score_area and score_area1 are visible
- * The instructions disapper once the Play button has been clicked
- */
+// Here we set the order in which the informations will be displayed on the screen once the player click on the Play button
 function startGame() {
 
     var rules = document.getElementById('instructions');
@@ -32,12 +27,9 @@ function startGame() {
     document.getElementById('current_score').innerText = 0;
 
     // Here we call the Timer
-
     startTimer();
 
-
     // Here we reset the variables
-
     loops = 0;
     flagVisible = false;
     gameScore = 0;
@@ -45,13 +37,17 @@ function startGame() {
     gameLoop();
 }
 
-/* --------- Score */
-
+// This variable increase in value everytime it's called
 var loops = 0;
+// This variable creates the flashing effect
 var flagVisible = false;
+// This variable keeps track of the score
 var gameScore = 0;
 
-/* --------- Here we animate the flags so that they flash on and off the screen  */
+
+// Here we make our game loops for a fixed number of times before the game ends
+// At the end of the game the final score will be shown
+// Here we animate the flags so that they flash on and off the screen
 
 function gameLoop() {
 
@@ -76,7 +72,8 @@ function gameLoop() {
     }
 }
 
-/* --------- Here we add 1 point to the score if the answer is right and deduct 2 points if the answer is wrong */
+// Here we crate a new set of flags in different positions everytime the game loop runs
+// The variable gameScore keeps track of the score. We subtract 2 from the gameScore value if the wrong flag is selected
 
 function createFlags() {
     var board = document.getElementById("board");
@@ -87,10 +84,11 @@ function createFlags() {
         board.children[index].onclick = function () {
             gameScore += -2;
             document.getElementById("current_score").innerText = gameScore;
-
         };
     }
-    /* --------- This code will randomly pick a random flag to be the intruder */
+
+    // This code will randomly pick a random flag to be the intruder everytime the game loop runs
+    // The variable gameScore keeps track of the score. We add 1 to the gameScore value if the correct flag is selected
     var randomNumber = Math.floor(Math.random() * 6) + 1;
     board.children[randomNumber - 1].innerHTML = "";
     board.children[randomNumber - 1].onclick = function () {
@@ -100,7 +98,7 @@ function createFlags() {
     board.children[randomNumber - 1].className = classToSet + " wrong-flag";
 }
 
-/* --------- Timer */
+// Here we set the Timer
 
 function startTimer() {
     var counter = 21;
@@ -119,8 +117,7 @@ function startTimer() {
     }, 1000);
 }
 
-/* --------- Here we count the games won and lost */
-
+// Here we count the games won and lost
 
 function won() {
     let oldScore = parseInt(document.getElementById("won").innerText);

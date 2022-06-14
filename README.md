@@ -5,7 +5,7 @@
 
 The Flags Game is a way to test and train the player's reaction time, while having fun.
 
-The player has to deal with a different set of six flags every three seconds. Five of these represent the Irish flag, while the last one it's the flag of the Ivory Coast, very similar to the Irish one. The player needs to catch the Ivory Coast flag (the intruder). Everytime the player clicks on the Ivory Coast flag a point will be added to the score, and to make sure the player is paying attention, every click onthe Irish flag will take away 2 points.
+The player has to deal with a different set of six flags every three seconds. Five of these represent the Irish flag, while the last one it's the flag of the Ivory Coast, very similar to the Irish one. The player needs to catch the Ivory Coast flag (the intruder). Everytime the player clicks on the Ivory Coast flag a point will be added to the score, and to make sure the player is paying attention, every click on the Irish flag will take away 2 points.
 
 ![Alternate text](/assets/images/Responsive.png)
 
@@ -14,7 +14,7 @@ You can view the deployed website [here](https://lucadp07.github.io/flags-game/)
 **UX**
 - - -
 
-The website is designed for any type of screen in mind (Desktop, Smartphone and Tablet). The structure of each section is simple,  user friendly and clear. The selection of colors are inspired by the Irish and Ivory Coast flag, which are the core of the game. The main board has been created to contain the instructions, the game itself and a message showing the final score. All this provides a familiar and not confusing experience to the user. 
+The website is designed for any type of screen in mind (Desktop, Smartphone and Tablet). The structure of each section is simple, user friendly and clear. The selection of colors are inspired by the Irish and Ivory Coast flag, which are the core of the game. The main board has been created to contain the instructions, the game itself and a message showing the final score. All this provides a familiar and not confusing experience to the user. 
 
 **User Stories**
 
@@ -174,6 +174,8 @@ The live link can be found here: https://lucadp07.github.io/flags-game/
 - The Timer structure was inspired by [WEB CIFAR](https://www.youtube.com/c/WEBCIFAROfficial).
 
 - The Score Area was inspired by the [Love Maths](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/a8ec361b95e94c25bf8a821654bd57bc/?child=first) Project.
+
+- The Javascript code was inspired by the book [Get Coding](https://getcodingkids.com/the-book/).
 
 
 **Media**
